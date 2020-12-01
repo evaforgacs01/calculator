@@ -10,6 +10,15 @@ body {
 .container {
     display: flex;
 }
+.calculator-screen {
+    width: 400px;
+    height: 2.5rem;
+    line-height: 2rem;
+    margin: .25rem;
+    font-size: 1rem;
+    text-align: left;
+    
+}
 .calculator-keys {
     display: flex;
     flex-direction: column;
