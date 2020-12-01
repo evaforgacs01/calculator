@@ -1,0 +1,29 @@
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+}
+.calculator-keys {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+button {
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    margin: .25rem;
+    font-size: 1rem;
+}
+
+.equal {
+    flex-grow: 1;
+ height: 100%;
+}
